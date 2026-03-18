@@ -1,0 +1,6 @@
+data = input("informe a uma data: ")
+
+oposto = data [::-1] 
+print("a data é: ", oposto)
+
+# esse código mostra a data no padrão da EUA (AAAAMMDD)
