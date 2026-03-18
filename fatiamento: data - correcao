@@ -1,0 +1,7 @@
+data = input("informe a uma data no formato AAAAMMDD: ")
+print("a data é: ", data [-2:], "/", data [4:6], "/", data [:4])
+
+# onde:
+# data [-2] é DD
+# data [4:6] é MM
+# data [0:4] é AAAA
