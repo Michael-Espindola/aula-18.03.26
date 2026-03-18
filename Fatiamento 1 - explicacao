@@ -1,0 +1,5 @@
+curso = input("insira uma palavra: ")
+
+primeira = curso [:4]
+ultima = curso [-3 :]
+print("a primeira letra é :, ", primeira, " e ultima letra é: " , ultima)
