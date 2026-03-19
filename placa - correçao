@@ -1,0 +1,10 @@
+while True :
+    placa = input("informe uma placa no formato AAA0000: ")
+
+    if  (len(placa) == 7 and placa.isalnum() and \
+            placa [:3].isalpha() and \
+            placa [3:].isdigit() ):
+        print("placa válida")
+        break
+    else:
+        print("placa inválida")
